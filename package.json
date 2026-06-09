@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-o2-cz-sociodemo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Socio-demo API can be used to obtain time-aggregated data representing groups of people on the given location in the Czech Republic. Having a location, the API can return count of people belonging ..",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-o2-cz-sociodemo",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "o2-cz-sociodemo"

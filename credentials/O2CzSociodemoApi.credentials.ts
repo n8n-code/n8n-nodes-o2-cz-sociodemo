@@ -8,7 +8,7 @@ import type {
 export class O2CzSociodemoApi implements ICredentialType {
 	name = 'N8nDevO2CzSociodemoApi';
 
-	displayName = 'o2-cz-sociodemo API';
+	displayName = 'O2 Cz Sociodemo API';
 
 	icon: Icon = { light: 'file:../nodes/O2CzSociodemo/o2-cz-sociodemo.png', dark: 'file:../nodes/O2CzSociodemo/o2-cz-sociodemo.dark.png' };
 
@@ -22,7 +22,7 @@ export class O2CzSociodemoApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your o2-cz-sociodemo API server',
+			description: 'The base URL of your O2 Cz Sociodemo API server',
 		},
 		{
 			displayName: 'API Key',

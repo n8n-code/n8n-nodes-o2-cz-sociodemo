@@ -53,9 +53,12 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Info | Get information about versions of application and data |
+<details>
+<summary><b>Info</b> (1 operations)</summary>
+
+- Get Information about versions of application and data
+
+</details>
 
 ---
 

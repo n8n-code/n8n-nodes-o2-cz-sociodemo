@@ -3,14 +3,14 @@ import { infoDescription } from './resources/info';
 
 export class O2CzSociodemo implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'o2-cz-sociodemo',
+		displayName: 'O2 Cz Sociodemo',
 		name: 'N8nDevO2CzSociodemo',
 		icon: { light: 'file:./o2-cz-sociodemo.png', dark: 'file:./o2-cz-sociodemo.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Socio-demo API can be used to obtain time-aggregated data representing groups of people on the given location in the Czech Republic. Having a location, the API can return count of people belonging ..',
-		defaults: { name: 'o2-cz-sociodemo' },
+		defaults: { name: 'O2 Cz Sociodemo' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
